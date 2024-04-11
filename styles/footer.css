@@ -6,7 +6,9 @@
             ->contact_info-location
         ->h2
     ->map
-        ->iframe */
+        ->iframe
+    ->copyright
+*/
 
 .footer {
   margin: 0 4rem;
@@ -15,7 +17,7 @@
 }
 
 .contact {
-  padding: 4rem 8rem;
+  padding: 4rem 2rem 4rem 4rem;
   background: var(--blue);
   color: var(--white);
   display: flex;
