@@ -15,7 +15,7 @@ export default function Footer() {
             <p>Phone No. 9815465254</p>
           </div>
         </div>
-        <h2>tarahararun@gmail.com</h2>
+        <h2 className="heading_email">tarahararun@gmail.com</h2>
       </div>
       <div className="map">
         <iframe
