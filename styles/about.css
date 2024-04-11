@@ -1,0 +1,40 @@
+.about {
+  margin: 0 5.625rem;
+  padding: 0 10rem;
+  text-align: center;
+  color: var(--blue);
+}
+
+.about_intro {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  color: var(--blue);
+}
+
+.about_intro-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h2.about_title {
+  margin: 2rem 0;
+}
+
+.about_goal-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_icon {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.image_certificate {
+  width: 620px;
+  height: auto;
+  margin-bottom: 2rem;
+}

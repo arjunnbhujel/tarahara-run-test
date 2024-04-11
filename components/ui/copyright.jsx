@@ -10,7 +10,6 @@ export default function Copyright() {
           href="https://arjunbhujel.com.np/"
           rel="noreferrer"
           target="_blank"
-          passHref={true}
           className="developer_link"
         >
           Arjun Bhujel

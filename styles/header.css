@@ -72,7 +72,6 @@ p.header_logo-description {
     right: 0;
     width: 100vw;
     overflow: hidden;
-    z-index: -1;
   }
 
   .nav {
