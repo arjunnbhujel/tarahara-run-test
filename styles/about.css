@@ -1,6 +1,19 @@
+/*
+about
+  -> about_intro
+  -> about_goal
+    -> h2.about_title
+    -> about_goal-card
+      -> card_icon | running | community | youth
+  -> about_registration
+*/
+
 .about {
   margin: 0 5.625rem;
-  padding: 0 10rem;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   color: var(--blue);
 }
@@ -9,13 +22,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-
   color: var(--blue);
-}
-
-.about_intro-title {
-  font-size: 2.5rem;
-  font-weight: 600;
 }
 
 h2.about_title {
@@ -24,6 +31,7 @@ h2.about_title {
 
 .about_goal-card {
   display: flex;
+  gap: 2rem;
   justify-content: space-between;
 }
 
@@ -37,4 +45,26 @@ h2.about_title {
   width: 620px;
   height: auto;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    margin: 0 1rem;
+    padding: 0 1rem;
+  }
+
+  h2.about_title {
+    margin: 0.5rem 0;
+  }
+
+  .about_goal-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .image_certificate {
+    width: 100%;
+    height: auto;
+  }
 }
