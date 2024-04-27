@@ -1,0 +1,22 @@
+.weeklyRun {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 5%;
+  color: var(--blue);
+}
+
+.weeklyRun_heading {
+  padding: 1rem;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+  .weeklyRun_image {
+    width: 100%;
+    height: auto;
+  }
+}
