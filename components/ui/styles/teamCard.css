@@ -1,0 +1,17 @@
+.teamcard_details {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 1rem;
+}
+
+.teamcard_text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--blue);
+}
+
+h3.teamcard_title {
+  color: var(--blue);
+}
