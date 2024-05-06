@@ -8,7 +8,7 @@
 }
 
 h2.team_heading {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   color: var(--blue);
 }
 
@@ -18,4 +18,26 @@ h2.team_heading {
   grid-template-columns: repeat(3, 1fr);
   row-gap: 2rem;
   justify-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+    margin: 0 1rem;
+    padding: 0 1rem;
+  }
+  .teamcard {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .team {
+    margin: 0;
+    padding: 0 0.5rem;
+  }
+  .teamcard {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+  }
 }

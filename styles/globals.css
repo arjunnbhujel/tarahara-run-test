@@ -31,7 +31,31 @@ h1 {
 }
 
 h2 {
-  font-weight: 500;
   font-size: 2.125rem;
+  font-weight: 500;
   font-family: var(--font-oswald);
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    font-family: var(--font-oswald);
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--font-oswald);
+  }
+
+  h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: var(--font-oswald);
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
 }

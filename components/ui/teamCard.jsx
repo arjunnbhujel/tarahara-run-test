@@ -4,7 +4,13 @@ import Image from "next/image"
 export default function TeamCard({ team }) {
   return (
     <div className="teamcard_details">
-      <Image src={team.img} width={200} height={240} alt={team.alt} />
+      <Image
+        className="teamcard_image"
+        src={team.img}
+        // width={200}
+        // height={240}
+        alt={team.alt}
+      />
       <div className="teamcard_text">
         <h3 className="teamcard_title">{team.title}</h3>
         <p className="teamcard_name">{team.name}</p>
